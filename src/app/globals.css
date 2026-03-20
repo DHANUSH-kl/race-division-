@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Subtle glow effects */
+  .glow-accent { 
+    position: absolute; 
+    width: 600px; 
+    height: 600px; 
+    background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0) 70%); 
+    border-radius: 50%; 
+    pointer-events: none; 
+    z-index: 0; 
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: #0a0a0a; }
+  ::-webkit-scrollbar-thumb { background: #262626; border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: #404040; }
+  
+  /* Hide images for purely clean typographic look or use ultra-minimal placeholders */
+  .img-placeholder { 
+    background: linear-gradient(145deg, #121212, #0a0a0a); 
+    border: 1px solid #1a1a1a; 
+  }
+}

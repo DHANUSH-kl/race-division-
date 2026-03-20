@@ -1,0 +1,65 @@
+
+> race-devision@0.1.0 build
+> next build
+
+  Gû¦ Next.js 14.2.16
+
+   Creating an optimized production build ...
+node.exe : Failed to compile.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (F 
+   ailed to compile.:String) [], RemoteExcept  
+  ion
+    + FullyQualifiedErrorId : NativeCommandErr 
+   or
+ 
+
+src\app\layout.tsx
+An error occurred in `next/font`.
+
+Error: Cannot find module 'autoprefixer'
+Require stack:
+- F:\race devision\node_modules\next\dist\build
+\webpack\config\blocks\css\plugins.js
+- F:\race devision\node_modules\next\dist\build
+\webpack\config\blocks\css\index.js
+- F:\race devision\node_modules\next\dist\build
+\webpack\config\index.js
+- F:\race devision\node_modules\next\dist\build
+\webpack-config.js
+- F:\race devision\node_modules\next\dist\build
+\webpack-build\impl.js
+- F:\race devision\node_modules\next\dist\compi
+led\jest-worker\processChild.js
+    at Function.<anonymous> 
+(node:internal/modules/cjs/loader:1383:15)
+    at F:\race devision\node_modules\next\dist\
+server\require-hook.js:55:36
+    at Function.resolve 
+(node:internal/modules/helpers:157:19)
+    at loadPlugin (F:\race devision\node_module
+s\next\dist\build\webpack\config\blocks\css\plu
+gins.js:49:32)
+    at F:\race devision\node_modules\next\dist\
+build\webpack\config\blocks\css\plugins.js:157:
+56
+    at Array.map (<anonymous>)
+    at getPostCssPlugins (F:\race devision\node
+_modules\next\dist\build\webpack\config\blocks\
+css\plugins.js:157:47)
+    at async F:\race devision\node_modules\next
+\dist\build\webpack\config\blocks\css\index.js:
+124:36
+    at async F:\race devision\node_modules\next
+\dist\build\webpack\loaders\next-font-loader\in
+dex.js:86:33
+    at async Span.traceAsyncFn (F:\race devisio
+n\node_modules\next\dist\trace\trace.js:154:20)
+
+
+> Build failed because of webpack errors
+
