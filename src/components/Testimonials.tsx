@@ -53,7 +53,7 @@ export default function Testimonials() {
                             <iconify-icon icon="solar:star-bold" className="text-sm"></iconify-icon>
                         </div>
                         <p className="text-sm text-neutral-400 font-light leading-relaxed mb-6">
-                            "Very professional setup. They explained the entire process, showed me the baseline run, and discussed the changes made. Highly recommended for any superbiker in Mumbai."
+                            "Very professional setup. They explained the entire process, showed me the baseline run, and discussed the changes made. Highly recommended for any superbiker in Navi Mumbai."
                         </p>
                     </div>
                     <div>

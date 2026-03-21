@@ -6,10 +6,10 @@ export default function Contact() {
             <h2 className="reveal-on-scroll text-4xl md:text-6xl font-semibold tracking-tighter text-neutral-100 mb-6">Ready to extract every ounce of power?</h2>
             <p className="reveal-on-scroll delay-100 text-base text-neutral-400 mb-10 font-light">Slots for custom mapping and dyno sessions fill up fast. Secure your spot.</p>
             <div className="reveal-on-scroll delay-200 flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="#" className="w-full sm:w-auto px-8 py-4 text-sm font-medium text-[#0a0a0a] bg-neutral-100 rounded-full hover:scale-105 transition-transform duration-300">
+                <a href="tel:+917977702053" className="w-full sm:w-auto px-8 py-4 text-sm font-medium text-[#0a0a0a] bg-neutral-100 rounded-full hover:scale-105 transition-transform duration-300">
                     Book an Appointment
                 </a>
-                <a href="#" className="w-full sm:w-auto px-8 py-4 text-sm font-medium text-neutral-300 border border-white/10 rounded-full hover:bg-white/5 transition-colors">
+                <a href="https://wa.me/917977702053" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 text-sm font-medium text-neutral-300 border border-white/10 rounded-full hover:bg-white/5 transition-colors">
                     Contact via WhatsApp
                 </a>
             </div>

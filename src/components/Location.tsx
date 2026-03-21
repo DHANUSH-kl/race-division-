@@ -9,14 +9,14 @@ export default function Location() {
                         <h2 className="text-2xl font-semibold tracking-tight">Base of Operations</h2>
                     </div>
                     <p className="text-sm text-neutral-400 max-w-sm font-light leading-relaxed">
-                        Located in the heart of Mumbai, our facility is equipped with state-of-the-art climate control to ensure consistent and accurate dyno readings regardless of outside weather.
+                        Located in Navi Mumbai, our facility is equipped with state-of-the-art climate control to ensure consistent and accurate dyno readings regardless of outside weather.
                     </p>
                 </div>
                 <div className="reveal-on-scroll delay-200 w-full md:w-auto flex flex-col items-start md:items-end gap-2 text-sm">
                     <p className="font-medium text-neutral-100">Race Devision Garage</p>
-                    <p className="text-neutral-500">Andheri West, Mumbai</p>
-                    <p className="text-neutral-500">Maharashtra 400053, India</p>
-                    <a href="#" className="mt-4 text-xs font-medium text-neutral-100 underline underline-offset-4 hover:text-white transition-colors">Get Directions</a>
+                    <p className="text-neutral-500">Shop No 04, Plot No 65, Sec 18, Shiravane</p>
+                    <p className="text-neutral-500">Nerul, Navi Mumbai (M Corp), 400706</p>
+                    <a href="https://maps.app.goo.gl/86VAGZWZqPjtTHQL9" target="_blank" rel="noopener noreferrer" className="mt-4 text-xs font-medium text-neutral-100 underline underline-offset-4 hover:text-white transition-colors">Get Directions</a>
                 </div>
             </div>
         </div>
