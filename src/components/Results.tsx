@@ -3,29 +3,29 @@ export default function Results() {
     <section id="results" className="py-32">
         <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div className="reveal-on-scroll">
-                    <h2 className="text-3xl md:text-5xl font-semibold tracking-tighter text-neutral-100 mb-6">Numbers <br /><span className="text-neutral-500">Don't Lie.</span></h2>
-                    <p className="text-sm md:text-base text-neutral-400 font-light leading-relaxed mb-8 max-w-md">
+                <div>
+                    <h2 className="reveal-on-scroll text-3xl md:text-5xl font-semibold tracking-tighter text-neutral-100 mb-6">Numbers <br /><span className="text-neutral-500">Don't Lie.</span></h2>
+                    <p className="reveal-on-scroll delay-100 text-sm md:text-base text-neutral-400 font-light leading-relaxed mb-8 max-w-md">
                         Our tuning philosophy is built on data, not guesswork. Every map is verified on the dyno to ensure smooth power delivery, eliminating flat spots and maximizing peak performance safely.
                     </p>
                     
                     <div className="space-y-6">
-                        <div className="border-l-2 border-neutral-700 pl-4">
+                        <div className="reveal-on-scroll delay-200 border-l-2 border-neutral-700 pl-4">
                             <h4 className="text-neutral-100 font-medium text-sm mb-1">Average HP Gain</h4>
                             <p className="text-3xl font-semibold tracking-tighter text-white">+12-15%</p>
                         </div>
-                        <div className="border-l-2 border-neutral-700 pl-4">
+                        <div className="reveal-on-scroll delay-300 border-l-2 border-neutral-700 pl-4">
                             <h4 className="text-neutral-100 font-medium text-sm mb-1">Throttle Response</h4>
                             <p className="text-sm text-neutral-400">Eliminated factory restrictions</p>
                         </div>
-                        <div className="border-l-2 border-neutral-700 pl-4">
+                        <div className="reveal-on-scroll delay-500 border-l-2 border-neutral-700 pl-4">
                             <h4 className="text-neutral-100 font-medium text-sm mb-1">Engine Temperatures</h4>
                             <p className="text-sm text-neutral-400">Optimized fueling for cooler running</p>
                         </div>
                     </div>
                 </div>
 
-                <div className="relative h-[400px] w-full bg-neutral-900/20 border border-white/5 rounded-3xl p-6 flex flex-col justify-between reveal-on-scroll delay-200">
+                <div className="reveal-on-scroll delay-500 relative h-[400px] w-full bg-neutral-900/20 border border-white/5 rounded-3xl p-6 flex flex-col justify-between">
                     <div className="flex justify-between text-xs font-medium text-neutral-600 mb-4 border-b border-white/5 pb-2">
                         <span>Torque (Nm)</span>
                         <span>Power (HP)</span>

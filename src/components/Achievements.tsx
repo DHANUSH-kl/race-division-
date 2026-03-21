@@ -1,22 +1,70 @@
+'use client';
+import { useState, useEffect, useRef } from 'react';
+
+function AnimatedCounter({ end, suffix = "", textValue = "" }: { end?: number, suffix?: string, textValue?: string }) {
+  const [count, setCount] = useState(0);
+  const [hasAnimated, setHasAnimated] = useState(false);
+  const ref = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    if (textValue) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !hasAnimated) {
+          setHasAnimated(true);
+          let startTime: number;
+          const duration = 2000;
+
+          const animate = (currentTime: number) => {
+            if (!startTime) startTime = currentTime;
+            const progress = Math.min((currentTime - startTime) / duration, 1);
+            const easeProgress = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+            setCount(Math.floor(easeProgress * end!));
+
+            if (progress < 1) {
+              requestAnimationFrame(animate);
+            }
+          };
+          requestAnimationFrame(animate);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => observer.disconnect();
+  }, [end, hasAnimated, textValue]);
+
+  return (
+    <span ref={ref} className="text-3xl md:text-4xl font-semibold tracking-tighter text-neutral-100 mb-2">
+      {textValue ? textValue : `${count}${suffix}`}
+    </span>
+  );
+}
+
 export default function Achievements() {
   return (
     <section className="py-20 border-y border-white/5 bg-neutral-950/50">
         <div className="max-w-7xl mx-auto px-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 divide-x divide-white/5 reveal-on-scroll">
-                <div className="flex flex-col items-center text-center px-4">
-                    <span className="text-3xl md:text-4xl font-semibold tracking-tighter text-neutral-100 mb-2">500+</span>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 divide-x divide-white/5">
+                <div className="reveal-on-scroll flex flex-col items-center text-center px-4">
+                    <AnimatedCounter end={500} suffix="+" />
                     <span className="text-xs font-medium text-neutral-500 uppercase tracking-widest">Bikes Tuned</span>
                 </div>
-                <div className="flex flex-col items-center text-center px-4">
-                    <span className="text-3xl md:text-4xl font-semibold tracking-tighter text-neutral-100 mb-2">12+</span>
+                <div className="reveal-on-scroll delay-100 flex flex-col items-center text-center px-4">
+                    <AnimatedCounter end={12} suffix="+" />
                     <span className="text-xs font-medium text-neutral-500 uppercase tracking-widest">Track Records</span>
                 </div>
-                <div className="flex flex-col items-center text-center px-4">
-                    <span className="text-3xl md:text-4xl font-semibold tracking-tighter text-neutral-100 mb-2">AWD</span>
+                <div className="reveal-on-scroll delay-200 flex flex-col items-center text-center px-4">
+                    <AnimatedCounter textValue="AWD" />
                     <span className="text-xs font-medium text-neutral-500 uppercase tracking-widest">Dyno Facility</span>
                 </div>
-                <div className="flex flex-col items-center text-center px-4">
-                    <span className="text-3xl md:text-4xl font-semibold tracking-tighter text-neutral-100 mb-2">10</span>
+                <div className="reveal-on-scroll delay-300 flex flex-col items-center text-center px-4">
+                    <AnimatedCounter end={10} />
                     <span className="text-xs font-medium text-neutral-500 uppercase tracking-widest">Years Experience</span>
                 </div>
             </div>

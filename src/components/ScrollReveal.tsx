@@ -9,13 +9,13 @@ export default function ScrollReveal() {
     const observerOptions = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.15
+      threshold: 0.1
     };
 
     const observer = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.remove('opacity-0', 'translate-y-8');
+          entry.target.classList.remove('opacity-0', 'translate-y-6');
           entry.target.classList.add('opacity-100', 'translate-y-0');
           observer.unobserve(entry.target);
         }
@@ -24,7 +24,7 @@ export default function ScrollReveal() {
 
     const elements = document.querySelectorAll('.reveal-on-scroll');
     elements.forEach((el) => {
-      el.classList.add('opacity-0', 'translate-y-8', 'transition-all', 'duration-700', 'ease-out');
+      el.classList.add('opacity-0', 'translate-y-6', 'transition-all', 'duration-1000', 'ease-out');
       observer.observe(el);
     });
 

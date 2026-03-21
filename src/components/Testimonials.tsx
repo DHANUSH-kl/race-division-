@@ -2,10 +2,10 @@ export default function Testimonials() {
   return (
     <section className="py-32">
         <div className="max-w-7xl mx-auto px-6">
-            <h2 className="text-3xl font-semibold tracking-tighter text-neutral-100 mb-12 text-center reveal-on-scroll">Rider Feedback</h2>
+            <h2 className="reveal-on-scroll text-3xl font-semibold tracking-tighter text-neutral-100 mb-12 text-center">Rider Feedback</h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 reveal-on-scroll delay-100">
-                <div className="p-8 rounded-2xl bg-neutral-900/20 border border-white/5 flex flex-col justify-between">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="reveal-on-scroll delay-100 p-8 rounded-2xl bg-neutral-900/20 border border-white/5 flex flex-col justify-between">
                     <div>
                         <div className="flex text-neutral-100 mb-4">
                             <iconify-icon icon="solar:star-bold" className="text-sm"></iconify-icon>
@@ -24,7 +24,7 @@ export default function Testimonials() {
                     </div>
                 </div>
 
-                <div className="p-8 rounded-2xl bg-neutral-900/20 border border-white/5 flex flex-col justify-between">
+                <div className="reveal-on-scroll delay-200 p-8 rounded-2xl bg-neutral-900/20 border border-white/5 flex flex-col justify-between">
                     <div>
                         <div className="flex text-neutral-100 mb-4">
                             <iconify-icon icon="solar:star-bold" className="text-sm"></iconify-icon>
@@ -43,7 +43,7 @@ export default function Testimonials() {
                     </div>
                 </div>
 
-                <div className="p-8 rounded-2xl bg-neutral-900/20 border border-white/5 flex flex-col justify-between">
+                <div className="reveal-on-scroll delay-300 p-8 rounded-2xl bg-neutral-900/20 border border-white/5 flex flex-col justify-between">
                     <div>
                         <div className="flex text-neutral-100 mb-4">
                             <iconify-icon icon="solar:star-bold" className="text-sm"></iconify-icon>
