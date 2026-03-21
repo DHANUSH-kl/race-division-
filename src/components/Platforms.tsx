@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 export default function Platforms() {
   return (
-    <section className="py-24 border-y border-white/5 bg-neutral-950/30 overflow-hidden relative">
+    <section className="py-20 md:py-32 border-y border-white/5 bg-neutral-950/30 overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-6 mb-12">
-            <h2 className="reveal-on-scroll text-2xl md:text-3xl font-semibold tracking-tighter text-neutral-100">Platforms We Master</h2>
+            <h2 className="reveal-on-scroll text-3xl md:text-4xl font-semibold tracking-tighter text-neutral-100">Platforms We Master</h2>
         </div>
         
         <div className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar pb-8 px-6 space-x-6" style={{ scrollbarWidth: "none" }}>

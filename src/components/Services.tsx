@@ -2,16 +2,16 @@ import Image from 'next/image';
 
 export default function Services() {
   return (
-    <section id="services" className="py-32 relative">
+    <section id="services" className="py-20 md:py-32 relative">
         <div className="max-w-7xl mx-auto px-6 relative z-10">
             <div className="mb-16">
                 <h2 className="reveal-on-scroll text-3xl md:text-4xl font-semibold tracking-tighter text-neutral-100 mb-4">Precision Engineering</h2>
                 <p className="reveal-on-scroll delay-100 text-sm md:text-base text-neutral-500 max-w-xl">Comprehensive performance solutions tailored to your machine's exact geometry and engine characteristics.</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 {/* Main Service */}
-                <div className="reveal-on-scroll zoom-reveal delay-100 md:col-span-2 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex flex-col justify-between min-h-[300px]">
+                <div className="reveal-on-scroll zoom-reveal delay-100 lg:col-span-2 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex flex-col justify-between min-h-[300px]">
                     <Image src="/Custom ECU Remapping.jpeg" alt="Custom ECU Remapping" fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover object-center opacity-40 group-hover:scale-105 group-hover:opacity-60 transition-all duration-700 ease-out" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/80 to-transparent z-10 transition-opacity duration-500 group-hover:opacity-90"></div>
                     <div className="relative z-20 flex flex-col justify-between h-full">

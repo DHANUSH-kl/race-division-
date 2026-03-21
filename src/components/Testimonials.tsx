@@ -1,6 +1,6 @@
 export default function Testimonials() {
   return (
-    <section className="py-32">
+    <section className="py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-6">
             <h2 className="reveal-on-scroll text-3xl font-semibold tracking-tighter text-neutral-100 mb-12 text-center">Rider Feedback</h2>
             

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function BuildGallery() {
   return (
-    <section id="builds" className="py-24 bg-neutral-950/50 border-y border-white/5">
+    <section id="builds" className="py-20 md:py-32 bg-neutral-950/50 border-y border-white/5">
         <div className="max-w-7xl mx-auto px-6">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
                 <div>

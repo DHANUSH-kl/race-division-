@@ -1,6 +1,6 @@
 export default function Location() {
   return (
-    <section id="location" className="py-24 border-t border-white/5 bg-[#0a0a0a]">
+    <section id="location" className="py-20 md:py-32 border-t border-white/5 bg-[#0a0a0a]">
         <div className="max-w-7xl mx-auto px-6">
             <div className="flex flex-col md:flex-row items-center justify-between bg-neutral-900/30 border border-white/5 rounded-3xl p-8 md:p-12">
                 <div className="reveal-on-scroll mb-8 md:mb-0">
