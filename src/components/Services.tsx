@@ -9,7 +9,7 @@ export default function Services() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {/* Main Service */}
-                <div className="reveal-on-scroll delay-100 md:col-span-2 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex flex-col justify-between min-h-[300px]">
+                <div className="reveal-on-scroll zoom-reveal delay-100 md:col-span-2 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex flex-col justify-between min-h-[300px]">
                     <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                     <iconify-icon icon="solar:cpu-linear" style={{ strokeWidth: "1.5px" }} className="text-4xl text-neutral-100 mb-6"></iconify-icon>
                     <div>
@@ -21,7 +21,7 @@ export default function Services() {
                 </div>
 
                 {/* Secondary Service */}
-                <div className="reveal-on-scroll delay-200 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex flex-col justify-between min-h-[300px]">
+                <div className="reveal-on-scroll zoom-reveal delay-200 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex flex-col justify-between min-h-[300px]">
                     <iconify-icon icon="solar:graph-up-linear" style={{ strokeWidth: "1.5px" }} className="text-4xl text-neutral-100 mb-6"></iconify-icon>
                     <div>
                         <h3 className="text-xl font-semibold tracking-tight text-neutral-100 mb-3">Dyno Tuning</h3>
@@ -32,7 +32,7 @@ export default function Services() {
                 </div>
 
                 {/* Secondary Service */}
-                <div className="reveal-on-scroll delay-300 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex flex-col justify-between min-h-[300px]">
+                <div className="reveal-on-scroll zoom-reveal delay-300 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex flex-col justify-between min-h-[300px]">
                     <iconify-icon icon="solar:settings-linear" style={{ strokeWidth: "1.5px" }} className="text-4xl text-neutral-100 mb-6"></iconify-icon>
                     <div>
                         <h3 className="text-xl font-semibold tracking-tight text-neutral-100 mb-3">Performance Upgrades</h3>
@@ -43,7 +43,7 @@ export default function Services() {
                 </div>
 
                 {/* Wide Info Card */}
-                <div className="reveal-on-scroll delay-500 md:col-span-2 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex items-center justify-between min-h-[150px]">
+                <div className="reveal-on-scroll zoom-reveal delay-500 md:col-span-2 group relative bg-neutral-900/30 border border-white/5 rounded-3xl p-8 hover:bg-neutral-900/50 transition-all duration-500 overflow-hidden flex items-center justify-between min-h-[150px]">
                     <div>
                         <h3 className="text-xl font-semibold tracking-tight text-neutral-100 mb-1">Race Prep &amp; Build</h3>
                         <p className="text-sm text-neutral-400 font-light">Complete track day preparation and competitive race bike builds.</p>

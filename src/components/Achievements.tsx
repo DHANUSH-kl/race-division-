@@ -14,12 +14,15 @@ function AnimatedCounter({ end, suffix = "", textValue = "" }: { end?: number, s
         if (entry.isIntersecting && !hasAnimated) {
           setHasAnimated(true);
           let startTime: number;
-          const duration = 2000;
+          // Dynamically adjust duration based on how large the number is 
+          // (small numbers finish faster, large numbers max out at 2.5s)
+          const duration = Math.min(2500, Math.max(1200, end! * 20));
 
           const animate = (currentTime: number) => {
             if (!startTime) startTime = currentTime;
             const progress = Math.min((currentTime - startTime) / duration, 1);
-            const easeProgress = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+            // Cubic ease out - prevents extreme hang at the very end
+            const easeProgress = 1 - Math.pow(1 - progress, 3);
             setCount(Math.floor(easeProgress * end!));
 
             if (progress < 1) {
