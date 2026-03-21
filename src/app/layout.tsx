@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} bg-[#0a0a0a] text-neutral-400 antialiased selection:bg-neutral-800 selection:text-neutral-100 overflow-x-hidden`}>
+      <body className={`${inter.className} bg-[#faf9f6] text-neutral-500 antialiased selection:bg-red-600/20 selection:text-red-900 overflow-x-hidden`}>
         {children}
         <ScrollReveal />
         <Script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js" strategy="lazyOnload" />

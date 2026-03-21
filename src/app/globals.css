@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-  /* Subtle glow effects */
+  /* Subtle red glow effect for light theme */
   .glow-accent { 
     position: absolute; 
     width: 600px; 
     height: 600px; 
-    background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0) 70%); 
+    background: radial-gradient(circle, rgba(220,38,38,0.04) 0%, rgba(0,0,0,0) 70%); 
     border-radius: 50%; 
     pointer-events: none; 
     z-index: 0; 

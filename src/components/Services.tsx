@@ -5,8 +5,8 @@ export default function Services() {
     <section id="services" className="py-20 md:py-32 relative">
         <div className="max-w-7xl mx-auto px-6 relative z-10">
             <div className="mb-16">
-                <h2 className="reveal-on-scroll text-3xl md:text-4xl font-semibold tracking-tighter text-neutral-100 mb-4">Precision Engineering</h2>
-                <p className="reveal-on-scroll delay-100 text-sm md:text-base text-neutral-500 max-w-xl">Comprehensive performance solutions tailored to your machine's exact geometry and engine characteristics.</p>
+                <h2 className="reveal-on-scroll text-3xl md:text-4xl font-semibold tracking-tighter text-neutral-900 mb-4">Performance, Engineered for Real Results</h2>
+                <p className="reveal-on-scroll delay-100 text-sm md:text-base text-neutral-500 max-w-xl">No guesswork. No generic tunes. Every upgrade is tested, measured, and built for how you actually ride.</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -19,8 +19,12 @@ export default function Services() {
                         <div>
                             <h3 className="text-xl font-semibold tracking-tight text-white mb-3">Custom ECU Remapping</h3>
                             <p className="text-sm text-neutral-300 font-light leading-relaxed max-w-md">
-                                Unlock hidden horsepower, smooth out throttle response, and optimize fuel mapping. We build custom maps based on your specific modifications and riding style, ensuring reliable power delivery.
+                                Stop riding below your bike’s potential. We fine-tune your ECU to unlock real horsepower, sharper throttle response, and smoother power delivery — based on your exact setup and riding style.
                             </p>
+                            <div className="mt-5 flex items-center gap-2 text-xs font-semibold text-neutral-400 tracking-wide">
+                                <div className="w-1.5 h-1.5 rounded-full bg-neutral-500"></div>
+                                Built for: Track | Drag | Street | Mileage
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -32,10 +36,14 @@ export default function Services() {
                     <div className="relative z-20 flex flex-col justify-between h-full">
                         <iconify-icon icon="solar:graph-up-linear" style={{ strokeWidth: "1.5px" }} className="text-4xl text-neutral-100 mb-6 group-hover:scale-110 transition-transform duration-500 origin-left"></iconify-icon>
                         <div>
-                            <h3 className="text-xl font-semibold tracking-tight text-white mb-3">Dyno Tuning</h3>
+                            <h3 className="text-xl font-semibold tracking-tight text-white mb-3">Dyno Testing &amp; Tuning</h3>
                             <p className="text-sm text-neutral-300 font-light leading-relaxed">
-                                Real-time diagnostics and tuning on our state-of-the-art dynamometer. Verify gains and ensure optimal air/fuel ratios across the entire RPM range.
+                                Know exactly what your bike is capable of. We measure real horsepower, torque, and air-fuel ratios on our dyno — then optimize everything live to ensure maximum performance across the entire RPM range.
                             </p>
+                            <div className="mt-5 flex items-center gap-2 text-xs font-semibold text-neutral-400 tracking-wide">
+                                <div className="w-1.5 h-1.5 rounded-full bg-neutral-500"></div>
+                                No assumptions. Only data-backed tuning.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -49,8 +57,12 @@ export default function Services() {
                         <div>
                             <h3 className="text-xl font-semibold tracking-tight text-white mb-3">Performance Upgrades</h3>
                             <p className="text-sm text-neutral-300 font-light leading-relaxed">
-                                From full exhaust systems and high-flow intakes to quickshifters and suspension overhauls. We supply and install premium aftermarket components.
+                                More than just parts — complete performance transformation. From exhaust systems and intakes to quickshifters and suspension setups, we upgrade your bike with components that actually improve performance.
                             </p>
+                            <div className="mt-5 flex items-center gap-2 text-xs font-semibold text-neutral-400 tracking-wide">
+                                <div className="w-1.5 h-1.5 rounded-full bg-neutral-500"></div>
+                                Installed, tested, and tuned together.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -60,9 +72,15 @@ export default function Services() {
                     <Image src="/Race Prep & Build.jpeg" alt="Race Prep & Build" fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover object-center opacity-40 group-hover:scale-105 group-hover:opacity-60 transition-all duration-700 ease-out" />
                     <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-[#0a0a0a]/80 to-transparent z-10 transition-opacity duration-500 group-hover:opacity-90"></div>
                     <div className="relative z-20 w-full flex justify-between items-center h-full">
-                        <div>
-                            <h3 className="text-xl font-semibold tracking-tight text-white mb-1">Race Prep &amp; Build</h3>
-                            <p className="text-sm text-neutral-300 font-light">Complete track day preparation and competitive race bike builds.</p>
+                        <div className="max-w-xl">
+                            <h3 className="text-xl font-semibold tracking-tight text-white mb-2">Race Prep &amp; Custom Builds</h3>
+                            <p className="text-sm text-neutral-300 font-light mb-3">
+                                Built for riders who want more than "fast." We prepare and build track-ready machines engineered for competition — the same expertise behind record-setting bikes.
+                            </p>
+                            <div className="flex items-center gap-2 text-xs font-semibold text-neutral-400 tracking-wide">
+                                <div className="w-1.5 h-1.5 rounded-full bg-neutral-500"></div>
+                                Trusted on India’s fastest builds.
+                            </div>
                         </div>
                         <div className="h-12 w-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center group-hover:scale-110 transition-transform shrink-0 ml-4 backdrop-blur-sm">
                             <iconify-icon icon="solar:arrow-right-linear" style={{ strokeWidth: "1.5px" }} className="text-white drop-shadow-md"></iconify-icon>

@@ -2,14 +2,14 @@ import Link from 'next/link';
 
 export default function BuildGallery() {
   return (
-    <section id="builds" className="py-20 md:py-32 bg-neutral-950/50 border-y border-white/5">
+    <section id="builds" className="py-20 md:py-32 bg-[#f5f5f7] border-y border-black/5">
         <div className="max-w-7xl mx-auto px-6">
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
                 <div>
-                    <h2 className="reveal-on-scroll text-3xl font-semibold tracking-tighter text-neutral-100 mb-2">Build Gallery</h2>
-                    <p className="reveal-on-scroll delay-100 text-sm text-neutral-500">Recent projects exiting the devision.</p>
+                    <h2 className="reveal-on-scroll text-3xl font-semibold tracking-tighter text-neutral-900 mb-2">Build Gallery</h2>
+                    <p className="reveal-on-scroll delay-100 text-sm text-neutral-600">Recent projects exiting the devision.</p>
                 </div>
-                <Link href="#" className="reveal-on-scroll delay-200 text-xs font-medium text-neutral-300 hover:text-white transition-colors flex items-center gap-1 mt-4 md:mt-0">
+                <Link href="#" className="reveal-on-scroll delay-200 text-xs font-semibold uppercase tracking-widest text-red-600 hover:text-red-700 transition-colors flex items-center gap-1 mt-4 md:mt-0">
                     View All <iconify-icon icon="solar:arrow-right-linear"></iconify-icon>
                 </Link>
             </div>

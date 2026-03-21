@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Achievements from '@/components/Achievements';
 import Services from '@/components/Services';
+import FeaturedTune from '@/components/FeaturedTune';
 import Platforms from '@/components/Platforms';
 import Results from '@/components/Results';
 import BuildGallery from '@/components/BuildGallery';
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Achievements />
       <Services />
+      <FeaturedTune />
       <Platforms />
       <Results />
       <BuildGallery />
