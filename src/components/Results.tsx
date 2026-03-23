@@ -1,6 +1,6 @@
 export default function Results() {
   return (
-    <section id="results" className="py-20 md:py-32">
+    <section id="results" className="py-20 md:py-32 relative z-10 bg-white rounded-t-[2.5rem] shadow-[0_-24px_60px_-10px_rgba(0,0,0,0.15)] lg:rounded-none lg:shadow-none">
         <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                 <div>

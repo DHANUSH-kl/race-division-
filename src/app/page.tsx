@@ -23,6 +23,9 @@ export default function Home() {
       <Services />
       <div className="relative isolate">
         <FeaturedTune />
+        {/* Mobile scroll buffer — invisible (FeaturedTune pins over it), gives extra scroll
+            room so full section content is readable before Platforms slides in */}
+        <div className="h-screen lg:h-0" aria-hidden="true" />
         <Platforms />
       </div>
       <DynoSection />
