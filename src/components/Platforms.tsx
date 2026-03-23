@@ -104,7 +104,7 @@ export default function Platforms() {
   if (!mounted) return null;
 
   return (
-    <section id="platforms" className="py-20 md:py-32 relative bg-[#faf9f6] border-y border-black/[0.03] overflow-hidden">
+    <section id="platforms" className="py-20 md:py-32 relative z-10 bg-[#faf9f6] border-t border-black/[0.03] overflow-hidden shadow-[0_-20px_40px_-10px_rgba(0,0,0,0.05)]">
         
         {/* Abstract Background Elements for Premium Feel */}
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-red-600/5 blur-[120px] rounded-full pointer-events-none -translate-y-1/2 translate-x-1/2"></div>

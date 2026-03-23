@@ -98,7 +98,7 @@ export default function Hero() {
             {/* Subheadline */}
             <div className={`transition-all duration-1000 ease-[0.22,1,0.36,1] transform pointer-events-auto ${loaded ? 'translate-y-0 opacity-100 delay-500' : 'translate-y-12 opacity-0'}`}>
                 <p className="text-base md:text-lg max-w-2xl text-neutral-500 mb-10 font-light leading-relaxed">
-                    We're the team behind record setting superbikes, including Asia's fastest RS 765 and India's fastest wheelie machine of 2023/24.
+                    We're the team behind record setting superbikes, including Asia's fastest RS 765 Drag bike and India's fastest wheelie machine record holder for 2023, 2024 & 2025
                 </p>
             </div>
 

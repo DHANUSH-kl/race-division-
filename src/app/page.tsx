@@ -10,6 +10,7 @@ import Testimonials from '@/components/Testimonials';
 import Location from '@/components/Location';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import DynoSection from '@/components/DynoSection';
 
 export default function Home() {
   return (
@@ -18,8 +19,11 @@ export default function Home() {
       <Hero />
       <Achievements />
       <Services />
-      <FeaturedTune />
-      <Platforms />
+      <div className="relative">
+        <FeaturedTune />
+        <Platforms />
+      </div>
+      <DynoSection />
       <Results />
       <BuildGallery />
       <Testimonials />
