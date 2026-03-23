@@ -33,7 +33,7 @@ export default function FeaturedTune() {
   if (!mounted) return null;
 
   return (
-    <section ref={sectionRef} className="sticky bottom-0 z-0 py-20 md:py-32 bg-white border-y border-black/5 overflow-hidden w-full">
+    <section ref={sectionRef} className="sticky top-0 z-0 py-20 md:py-32 bg-white border-y border-black/5 overflow-hidden w-full">
       
       {/* Matched Header Alignment */}
       <div className="max-w-7xl mx-auto px-6 relative z-10 w-full mb-12 md:mb-16">

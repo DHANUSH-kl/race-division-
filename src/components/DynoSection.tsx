@@ -53,9 +53,9 @@ export default function DynoSection() {
   });
 
   // Image shrink and move values
-  const width = useTransform(smoothProgress, [0, 0.5], ["100vw", isMobile ? "90vw" : "45vw"]);
-  const height = useTransform(smoothProgress, [0, 0.5], ["100vh", isMobile ? "40vh" : "60vh"]);
-  const top = useTransform(smoothProgress, [0, 0.5], ["0vh", isMobile ? "10vh" : "20vh"]);
+  const width = useTransform(smoothProgress, [0, 0.5], ["100vw", isMobile ? "85vw" : "45vw"]);
+  const height = useTransform(smoothProgress, [0, 0.5], ["100vh", isMobile ? "30vh" : "60vh"]);
+  const top = useTransform(smoothProgress, [0, 0.5], ["0vh", isMobile ? "4vh" : "20vh"]);
   const right = useTransform(smoothProgress, [0, 0.5], ["0vw", isMobile ? "5vw" : "5vw"]);
   const imageScale = useTransform(smoothProgress, [0, 0.5], [1.1, 1]);
 
@@ -64,7 +64,7 @@ export default function DynoSection() {
       <div className="sticky top-0 h-screen w-full overflow-hidden flex items-center">
         
         {/* Left Side: Text Content */}
-        <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-end lg:justify-center pb-8 lg:pb-0">
+        <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-end lg:justify-center pb-20 lg:pb-0">
           <motion.div 
             className="w-full lg:w-[45%] flex flex-col justify-center relative z-10 text-white"
             variants={containerVariants}

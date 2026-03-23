@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Achievements from '@/components/Achievements';
+import RecordSection from '@/components/RecordSection';
 import Services from '@/components/Services';
 import FeaturedTune from '@/components/FeaturedTune';
 import Platforms from '@/components/Platforms';
@@ -18,8 +19,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Achievements />
+      <RecordSection />
       <Services />
-      <div className="relative">
+      <div className="relative isolate">
         <FeaturedTune />
         <Platforms />
       </div>

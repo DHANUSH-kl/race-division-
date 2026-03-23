@@ -14,14 +14,11 @@ function AnimatedCounter({ end, suffix = "", textValue = "" }: { end?: number, s
         if (entry.isIntersecting && !hasAnimated) {
           setHasAnimated(true);
           let startTime: number;
-          // Dynamically adjust duration based on how large the number is 
-          // (small numbers finish faster, large numbers max out at 2.5s)
           const duration = Math.min(2500, Math.max(1200, end! * 20));
 
           const animate = (currentTime: number) => {
             if (!startTime) startTime = currentTime;
             const progress = Math.min((currentTime - startTime) / duration, 1);
-            // Cubic ease out - prevents extreme hang at the very end
             const easeProgress = 1 - Math.pow(1 - progress, 3);
             setCount(Math.floor(easeProgress * end!));
 
@@ -63,7 +60,7 @@ export default function Achievements() {
                     <span className="text-xs font-semibold text-neutral-400 uppercase tracking-widest mt-2">Track Records</span>
                 </div>
                 <div className="reveal-on-scroll delay-200 flex flex-col items-center justify-center text-center px-4">
-                    <AnimatedCounter textValue="AWD" />
+                    <AnimatedCounter textValue="DYNOJET 250i" />
                     <span className="text-xs font-semibold text-neutral-400 uppercase tracking-widest mt-2">Dyno Facility</span>
                 </div>
                 <div className="reveal-on-scroll delay-300 flex flex-col items-center justify-center text-center px-4">
