@@ -148,7 +148,7 @@ export default function RecordSection() {
             {/* Card */}
             <div className="ml-[52px] rs-reveal opacity-0 translate-y-8 transition-all duration-[1000ms] ease-[cubic-bezier(0.22,1,0.36,1)] bg-white rounded-2xl overflow-hidden shadow-[0_4px_24px_-4px_rgba(0,0,0,0.10)] border border-neutral-100">
               <div className="relative w-full aspect-[3/2]">
-                <Image src="/race valley group photo 1.JPEG" alt="RS 765 Drag Bike" fill className="object-cover" sizes="85vw" />
+                <Image src="/rs765 on dyno.png" alt="RS 765 Drag Bike" fill className="object-cover" sizes="85vw" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
                 <div className="absolute bottom-3 left-4">
                   <p className="text-white text-lg font-semibold leading-snug">Asia&apos;s Fastest</p>
@@ -188,7 +188,7 @@ export default function RecordSection() {
             {/* Card */}
             <div className="ml-[52px] rs-reveal opacity-0 translate-y-8 transition-all duration-[1000ms] ease-[cubic-bezier(0.22,1,0.36,1)] bg-white rounded-2xl overflow-hidden shadow-[0_4px_24px_-4px_rgba(0,0,0,0.10)] border border-neutral-100">
               <div className="relative w-full aspect-[3/2]">
-                <Image src="/zx10r on dyno.png" alt="India's Fastest Wheelie Machine" fill className="object-cover" sizes="85vw" />
+                <Image src="/fastest wheelie.jpg" alt="India's Fastest Wheelie Machine" fill className="object-contain" sizes="85vw" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
                 <div className="absolute bottom-3 left-4">
                   <p className="text-white text-lg font-semibold leading-snug">India&apos;s Fastest</p>
@@ -261,7 +261,7 @@ export default function RecordSection() {
             <div className="rs-reveal rs-rotate-pos opacity-0 transition-all duration-[1400ms] ease-[cubic-bezier(0.22,1,0.36,1)] relative w-full aspect-[16/10] max-w-3xl ml-auto group">
               <div className="rs-polaroid absolute inset-0 bg-white p-4 rounded-xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border border-neutral-100">
                 <div className="w-full h-full bg-neutral-100 rounded-lg overflow-hidden relative">
-                  <Image src="/race valley group photo 1.JPEG" alt="RS 765 Drag Bike" fill className="object-cover opacity-90 mix-blend-multiply grayscale-[15%]" sizes="60vw" />
+                  <Image src="/rs765 on dyno.png" alt="RS 765 Drag Bike" fill className="object-cover opacity-90 mix-blend-multiply grayscale-[15%]" sizes="60vw" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                 </div>
               </div>
@@ -275,7 +275,7 @@ export default function RecordSection() {
             <div className="rs-reveal rs-rotate-neg opacity-0 transition-all duration-[1400ms] ease-[cubic-bezier(0.22,1,0.36,1)] relative w-full aspect-[16/10] max-w-3xl mr-auto group">
               <div className="rs-polaroid absolute inset-0 bg-white p-4 rounded-xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border border-neutral-100">
                 <div className="w-full h-full bg-neutral-100 rounded-lg overflow-hidden relative">
-                  <Image src="/zx10r on dyno.png" alt="India's Fastest Wheelie Machine" fill className="object-cover opacity-90 mix-blend-multiply grayscale-[15%]" sizes="60vw" />
+                  <Image src="/fastest wheelie.jpg" alt="India's Fastest Wheelie Machine" fill className="object-contain opacity-90 mix-blend-multiply grayscale-[15%]" sizes="60vw" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                 </div>
               </div>

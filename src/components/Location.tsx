@@ -13,7 +13,7 @@ export default function Location() {
                     </p>
                 </div>
                 <div className="reveal-on-scroll delay-200 w-full md:w-auto flex flex-col items-start md:items-end gap-2 text-sm">
-                    <p className="font-semibold text-neutral-900">Race Devision Garage</p>
+                    <p className="font-semibold text-neutral-900">Race Division Garage</p>
                     <p className="text-neutral-500">Shop No 04, Plot No 65, Sec 18, Shiravane</p>
                     <p className="text-neutral-500">Nerul, Navi Mumbai (M Corp), 400706</p>
                     <a href="https://maps.app.goo.gl/86VAGZWZqPjtTHQL9" target="_blank" rel="noopener noreferrer" className="mt-4 text-xs font-semibold text-red-600 underline underline-offset-4 hover:text-red-700 transition-colors uppercase tracking-widest">Get Directions</a>

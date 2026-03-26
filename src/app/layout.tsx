@@ -3,11 +3,12 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Script from 'next/script';
 import ScrollReveal from '@/components/ScrollReveal';
+import { Analytics } from "@vercel/analytics/next"
 
 const inter = Inter({ subsets: ['latin'], weight: ['300', '400', '500', '600'] });
 
 export const metadata: Metadata = {
-  title: 'Race Devision | Precision Bike Tuning Mumbai',
+  title: 'Race Division | Precision Bike Tuning Mumbai',
   description: 'Precision ECU tuning, performance upgrades, and state-of-the-art dyno diagnostics for superbikes. Engineered for the elite riders of Mumbai.',
 };
 

@@ -81,7 +81,7 @@ export default function DynoSection() {
             style={{ height: mImgHeight }}
           >
             <motion.img
-              src="/250i dynojet.webp"
+              src="/250i dynojet.png"
               alt="Dynojet 250i Load Control Dyno"
               className="w-full h-full object-contain drop-shadow-2xl px-6"
               style={{ scale: mImgScale }}
@@ -191,7 +191,7 @@ export default function DynoSection() {
             style={{ width: dWidth, height: dHeight, right: dRight, top: dTop }}
           >
             <motion.img
-              src="/250i dynojet.webp"
+              src="/250i dynojet.png"
               alt="Dynojet 250i Load Control Dyno"
               className="w-full h-full object-contain origin-center drop-shadow-2xl"
               style={{ scale: dScale }}
